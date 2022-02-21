@@ -1,0 +1,225 @@
+// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    background-color: #838383;
+}
+
+.intro {
+    height: 850px;
+    position: relative;
+}
+
+// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
+
+.intro__video {
+    height: inherit;
+    background-color: #000;
+    opacity: 0.8;
+    position: relative;
+
+    &::after {
+        width: 100%;
+        height: 100%;
+        content: "";
+        display: block;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: 2;
+    }
+}
+
+.video {
+    position: relative;
+    z-index: 1;
+    // padding-bottom: 56.25%;
+}
+
+.video__media {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
+
+header {
+    width: 84%;
+    height: 80px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 8%;
+    img {
+        width: 85px;
+    }
+
+    ul {
+        display: flex;
+        li {
+            list-style: none;
+            margin-right: 50px;
+            &:last-child {
+                margin: 0;
+            }
+        }
+        a {
+            position: relative;
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            &:after {    
+                background: none repeat scroll 0 0 transparent;
+                bottom: 0;
+                content: "";
+                display: block;
+                height: 1.5px;
+                left: 50%;
+                position: absolute;
+                background: #fff;
+                transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                width: 0;
+              }
+              &:hover:after { 
+                width: 100%; 
+                left: 0; 
+              }
+        }
+    }
+
+    div {
+        display: none;
+        display: flex;
+        flex-direction: column;
+        a {
+            color: #fff;
+            margin-bottom: 10px;
+            text-decoration: none;
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+}
+
+// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
+
+.intro__headline {
+    width: 50%;
+    z-index: 3;
+
+    position: absolute;
+    top: 280px;
+    left: 25%;
+    h2 {
+        font-size: 50px;
+        color: #fff;
+        text-shadow: 6px 4px 8px rgba(150, 150, 150, .5);
+    }
+}
+
+.intro__medias {
+    position: absolute;
+    top: 630px;
+    left: 1100px;
+    a {
+        margin-right: 25px;
+        img {
+            width: 40px;
+        }
+        &:last-child {
+            margin: 0;
+        }
+    }
+}
+
+
+
+.about {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 200px;
+    // position: relative;
+    background-color: #000;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.about__headline {
+    display: flex;
+    margin-left: 100px;
+    h2 {
+        height: 500px;
+        font-size: 120px;
+        font-weight: 900;
+        text-transform: uppercase;
+        -webkit-text-stroke: 2px rgb(255, 255, 255);
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        // transform: rotate(270deg);
+
+        // position: absolute;
+        // top: 20px;
+        // left: 700px;
+    }
+    p {
+        font-size: 20px;
+        margin-left: -120px;
+        margin-top: 120px;
+        // padding-bottom: 40px;
+    }
+}
+
+// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
+
+.about__photos {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    img {
+        width: 400px;
+        border-radius: 20px;
+        // position: absolute;
+    }
+}
+
+.photo__one {
+    position: absolute;
+    top: 50px;
+    left: 180px;
+}
+
+.photo__two {
+    position: absolute;
+    top: -180px;
+    left: 620px;
+}
+
+.photo__three {
+    position: absolute;
+    top: -550px;
+    left: 1060px;
+}
+
+// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
