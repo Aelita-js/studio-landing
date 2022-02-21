@@ -8,15 +8,18 @@
 }
 
 body {
-    background-color: #838383;
+    background-color: #1a1a1a;
+    overflow-x: hidden;
 }
+
+
+
+// ! ======= INTRO styles =============================
 
 .intro {
     height: 850px;
     position: relative;
 }
-
-// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
 
 .intro__video {
     height: inherit;
@@ -51,8 +54,6 @@ body {
     top: 0;
     left: 0;
 }
-
-// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
 
 header {
     width: 84%;
@@ -121,8 +122,6 @@ header {
     }
 }
 
-// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
-
 .intro__headline {
     width: 50%;
     z-index: 3;
@@ -152,7 +151,9 @@ header {
     }
 }
 
+// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
 
+// ! ======= ABOUT US styles =============================
 
 .about {
     width: 100%;
@@ -160,8 +161,8 @@ header {
     margin-right: auto;
     padding-bottom: 200px;
     // position: relative;
-    background-color: #000;
-    opacity: 0.8;
+    // background-color: #000;
+    // opacity: 0.8;
     color: #fff;
 }
 
@@ -190,8 +191,6 @@ header {
         // padding-bottom: 40px;
     }
 }
-
-// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
 
 .about__photos {
     position: relative;
@@ -223,3 +222,79 @@ header {
 }
 
 // Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
+
+// ! ======= OUR WORKS styles =============================
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+.works {
+    position: relative;
+}
+
+.works__headline {
+    position: absolute;
+    top: -280px;
+    right: 150px;
+    h2 {
+        width: 500px;
+        font-size: 120px;
+        font-weight: 900;
+        text-align: right;
+        text-transform: uppercase;
+        -webkit-text-stroke: 2px rgb(255, 255, 255);
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+        // writing-mode: vertical-rl;
+        // transform: rotate(180deg);
+    }
+}
+
+$animationSpeed: 30s;
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+.works__slider {
+    // background: white;
+	width: 100%;
+    padding-top: 100px;
+	height: 600px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	// // &::before,
+	// // &::after {
+	// // 	@include white-gradient;
+	// // 	content: "";
+	// // 	height: 300px;
+	// // 	position: absolute;
+	// // 	width: 100px;
+	// // 	z-index: 2;
+	// // }
+	// // &::after {
+	// // 	right: 0;
+	// // 	top: 0;
+	// // 	transform: rotateZ(180deg);
+	// // }
+	// // &::before {
+	// // 	left: 0;
+	// // 	top: 0;
+	// // }
+}
+
+.works__slider__container {
+    display: flex;
+    align-items: center;
+    animation: scroll $animationSpeed linear infinite;
+    width: calc(400px * 4);
+}
+
+.works__slide {
+    width: 500px;
+    height: 280px;
+}
