@@ -71,14 +71,88 @@
 
         <div class="works__slider">
             <div class="works__slider__container">
-                <div class="works__slide"><iframe width="500" height="280" src="https://www.youtube.com/embed/VfYD9-hTjpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="works__slide"><iframe width="500" height="280" src="https://www.youtube.com/embed/WcgOZxYJFQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="works__slide"><iframe width="500" height="280" src="https://www.youtube.com/embed/s_x1mckflRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="works__slide"><iframe width="500" height="280" src="https://www.youtube.com/embed/r65BWlooD2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="works__slide"><img src="./assets/imgs/carousel_1.jpg" alt="portfolio's video"><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div class="works__slide"><img src="./assets/imgs/carousel_2.jpg" alt="portfolio's video"><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div class="works__slide"><img src="./assets/imgs/carousel_3.jpg" alt="portfolio's video"><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div class="works__slide"><img src="./assets/imgs/carousel_4.jpg" alt="portfolio's video"><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div class="works__slide"><img src="./assets/imgs/carousel_5.jpg" alt="portfolio's video"><img class="player" src="./assets/icons/player.png" alt="play"></div>
             </div>
         </div>
+
+        <div class="works__slider__second">
+            <div class="works__slider__container__second">
+                <div class="works__slide"><img src="./assets/imgs/carousel_1.jpg" alt="portfolio's video"><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div class="works__slide"><img src="./assets/imgs/carousel_2.jpg" alt="portfolio's video"><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div class="works__slide"><img src="./assets/imgs/carousel_3.jpg" alt="portfolio's video"><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div class="works__slide"><img src="./assets/imgs/carousel_4.jpg" alt="portfolio's video"><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div class="works__slide"><img src="./assets/imgs/carousel_5.jpg" alt="portfolio's video"><img class="player" src="./assets/icons/player.png" alt="play"></div>
+            </div>
+        </div>
+
+
+        <!-- <div class="works__popup">
+            <div class="works__popup__window">
+                Привет!
+            </div>
+
+            <div class="works__popup__overlay"></div>
+        </div> -->
     </div>
 
+
+    <div class="form">
+        <div class="form__heading">
+            <h2>Leave a request</h2>
+            <h3>We will contact you</h3>
+        </div>
+        <div class="form__table">
+            <div class="form__table__img">
+                <img src="./assets/imgs/about_one.jpg" alt="MK Production. Contact with us">
+            </div>
+            <form class="form__table__inputs" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfGxHUY968TaF08yE3qWZ1gJQ1i4ZBvJ3ljZ5RALXpRkpo7VQ/formResponse" method="post" >
+                <input type="text" name="fvv" placeholder="Name">
+                <input type="tel" name="partialResponse" placeholder="Phone number">
+                <input type="email" name="pageHistory" placeholder="Email">
+                <input type="text" name="fbzx" placeholder="Your message">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+    </div>
+
+
+    <footer>
+        <div class="footer__copyright">
+            <img src="./assets/icons/logoWhite.svg" alt="logo">
+            <h4>&copy; 2021 MK Production Agency. Dubai</h4>
+        </div>
+        <div class="footer__medias">
+            <div>
+                <h3>Follow us</h3>
+            </div>
+            <div>
+                <a href="#"><img src="./assets/icons/instagram.png" alt="socmedias"></a>
+                <a href="#"><img src="./assets/icons/vimeo.png" alt="socmedias"></a>
+                <a href="#"><img src="./assets/icons/facebook.png" alt="socmedias"></a>
+                <a href="#"><img src="./assets/icons/youtube.png" alt="socmedias"></a>
+                <a href="#"><img src="./assets/icons/behance.png" alt="socmedias"></a>
+            </div>
+        </div>
+        <div class="footer__contacts">
+            <div>
+                <h3>Contact us</h3>
+            </div>
+            <div>
+                <a href="tel:+971585647512">+971 585647512</a>
+                <a href="mailto:mk.productionuae@gmail.com">mk.productionuae@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
     <!-- Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com) -->
+
+    <script>
+        !function(){"use strict";document.addEventListener("click",function(t){const e=t.target.closest("[data-easy-toggle]");if(e){t.preventDefault();let a=e.getAttribute("data-easy-toggle"),s=e.getAttribute("data-easy-class");try{document.querySelectorAll("[data-easy-toggle]").forEach(t=>{t.hasAttribute("data-easy-parallel")||t===e||document.querySelector(t.getAttribute("data-easy-toggle")).classList.remove(t.getAttribute("data-easy-class"))}),document.querySelector(a).classList.toggle(s)}catch(t){console.warn("EasyToggler.js : Блок "+a+" не существует")}}if(!e){let e=document.querySelectorAll("[data-easy-rcoe]");Array.from(e).forEach.call(e,function(e){let a=e.getAttribute("data-easy-toggle"),s=e.getAttribute("data-easy-class");if(!t.target.closest(a))try{document.querySelector(a).classList.remove(s)}catch(t){console.warn("EasyToggler.js : Блок "+a+" не существует")}})}})}();
+    </script>
 </body>
 </html>
