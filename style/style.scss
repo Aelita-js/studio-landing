@@ -44,7 +44,6 @@ body {
 .video {
     position: relative;
     z-index: 1;
-    // padding-bottom: 56.25%;
 }
 
 .video__media {
@@ -151,7 +150,6 @@ header {
     }
 }
 
-// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
 
 // ! ======= ABOUT US styles =============================
 
@@ -160,9 +158,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 200px;
-    // position: relative;
-    // background-color: #000;
-    // opacity: 0.8;
     color: #fff;
 }
 
@@ -178,17 +173,11 @@ header {
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
         writing-mode: vertical-rl;
         transform: rotate(180deg);
-        // transform: rotate(270deg);
-
-        // position: absolute;
-        // top: 20px;
-        // left: 700px;
     }
     p {
         font-size: 20px;
         margin-left: -120px;
         margin-top: 120px;
-        // padding-bottom: 40px;
     }
 }
 
@@ -199,7 +188,6 @@ header {
     img {
         width: 400px;
         border-radius: 10px;
-        // position: absolute;
     }
 }
 
@@ -221,13 +209,18 @@ header {
     left: 1060px;
 }
 
-// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
+
 
 // ! ======= OUR WORKS styles =============================
 
-@mixin white-gradient {
-	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 5))}
 }
+
+$animationSpeed: 30s;
+$animationSpeeds: 45s;
+$animationSpeedHover: 65s;
 
 .works {
     position: relative;
@@ -245,22 +238,10 @@ header {
         text-transform: uppercase;
         -webkit-text-stroke: 2px rgb(255, 255, 255);
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
-        // writing-mode: vertical-rl;
-        // transform: rotate(180deg);
     }
 }
 
-$animationSpeed: 30s;
-$animationSpeeds: 45s;
-
-@keyframes scroll {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 5))}
-}
-
-
 .works__slider {
-    // background: white;
 	width: 100%;
     padding-top: 100px;
 	height: 400px;
@@ -268,24 +249,6 @@ $animationSpeeds: 45s;
 	position: relative;
 	overflow: hidden;
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-	// // &::before,
-	// // &::after {
-	// // 	@include white-gradient;
-	// // 	content: "";
-	// // 	height: 300px;
-	// // 	position: absolute;
-	// // 	width: 100px;
-	// // 	z-index: 2;
-	// // }
-	// // &::after {
-	// // 	right: 0;
-	// // 	top: 0;
-	// // 	transform: rotateZ(180deg);
-	// // }
-	// // &::before {
-	// // 	left: 0;
-	// // 	top: 0;
-	// // }
 }
 
 .works__slider__second {
@@ -311,7 +274,6 @@ $animationSpeeds: 45s;
     img {
         width: 430px;
         height: 320px;
-        // transition: 2s;
     }
 
     .player {
@@ -332,7 +294,9 @@ $animationSpeeds: 45s;
     }
 }
 
-// ! ===============================================================
+
+
+// ! ===== SERVICES STYLES ==========================================
 
 .services {
     width: 80%;
@@ -399,13 +363,11 @@ $animationSpeeds: 45s;
 
 
 
-// ! ===============================================================
+// ! ===== CONTACT FORM STYLES ======================================
 
 .form {
     width: 80%;
     margin: 80px auto;
-    // margin-left: auto;
-    // margin-right: auto;
     color: #fff;
 }
 
@@ -414,21 +376,17 @@ $animationSpeeds: 45s;
     margin-right: auto;
     margin-left: auto;
     h2 {
-        // width: 300px;
         font-size: 60px;
         font-weight: 900;
         text-align: center;
         text-transform: uppercase;
         -webkit-text-stroke: 2px rgb(255, 255, 255);
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
-        // writing-mode: vertical-rl;
-        // transform: rotate(180deg);
     }
     h3 {
         margin: 25px 0;
         font-size: 30px;
         text-align: center;
-        // color: #7c0f0f;
     }
 }
 
@@ -446,7 +404,6 @@ $animationSpeeds: 45s;
         height: inherit;
         display: flex;
         flex-direction: column;
-        // justify-content: space-evenly;
         align-items: center;
         justify-content: center;
         input {
@@ -470,7 +427,7 @@ $animationSpeeds: 45s;
             &:hover {
                 transition: .5s;
                 color: #fff;
-                background-color: #7c0f0f;
+                background-color: #ad2a2a;
             }
         }
         
@@ -478,7 +435,7 @@ $animationSpeeds: 45s;
 }
 
 
-// ! ===============================================================
+// ! ===== FOOTER STYLES ===========================================
 
 footer {
     width: 100%;
@@ -550,3 +507,5 @@ footer {
         }
     }
 }
+
+// Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com)
