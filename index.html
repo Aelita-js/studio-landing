@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
-    <!-- Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com) -->
     <title>Creative Video Production Agency Dubai - MK Production</title>
 </head>
 <body>
+    <!-- Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com) -->
     <div class="intro">
 
+        <!-- ! =========== Background Video =============== -->
         <div class="intro__video">
             <div class="video">
                 <video class="video__media" src="./assets/videos/bg-video.mp4" autoplay muted loop></video>
             </div>
         </div>
-        <!-- Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com) -->
+
+        <!-- ! =========== Header =============== -->
         <header>
             <img src="./assets/icons/logoWhite.svg" alt="MK Production">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About us</a></li>
                 <li><a href="#works">Our works</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="#services">Our services</a></li>
+                <li><a href="#contactus">Contact us</a></li>
             </ul>
             <div>
                 <a href="tel:+971585647512">+971 585647512</a>
@@ -48,7 +51,7 @@
         </div>
     </div>
 
-
+    <!-- ! =========== About =============== -->
     <div class="about" id="about">
         <div class="about__headline">
             <h2>About us</h2>
@@ -63,7 +66,7 @@
         </div>
     </div>
 
-
+    <!-- ! =========== Portfolio =============== -->
     <div class="works" id="works">
         <div class="works__headline">
             <h2>OUR WORKS</h2>
@@ -99,8 +102,53 @@
         </div> -->
     </div>
 
+    <!-- ! =========== Services =============== -->
+    <div class="services" id="services">
+        <div class="services__headline">
+            <h2>What we do?</h2>
+        </div>
+        <div class="services__block">
+            <div class="services__block__first block">
+                <div>
+                    <img src="./assets/icons/iconLiveStreaming.png" alt="Live Streaming">
+                    <h4>Live Streaming</h4>
+                </div>
+                <div>
+                    <img src="./assets/icons/iconVideoStudio.png" alt="Video Studio">
+                    <h4>Video Studio</h4>
+                </div>
+                <div>
+                    <img src="./assets/icons/iconGreenScreen.png" alt="Green Screen">
+                    <h4>Green Screen</h4>
+                </div>
+                <div>
+                    <img src="./assets/icons/iconMusicVideo.png" alt="Music Video">
+                    <h4>Music Video</h4>
+                </div>
+            </div>
+            <div class="services__block__second block">
+                <div>
+                    <img src="./assets/icons/iconFilmMaker.png" alt="Film Maker">
+                    <h4>Film Maker</h4>
+                </div>
+                <div>
+                    <img src="./assets/icons/iconVideography.png" alt="Videography">
+                    <h4>Videography</h4>
+                </div>
+                <div>
+                    <img src="./assets/icons/iconPhotography.png" alt="Photography">
+                    <h4>Photography</h4>
+                </div>
+                <div>
+                    <img src="./assets/icons/iconDrone.png" alt="Drone">
+                    <h4>Drone</h4>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <div class="form">
+    <!-- ! =========== Contact form =============== -->
+    <div class="form" id="contactus">
         <div class="form__heading">
             <h2>Leave a request</h2>
             <h3>We will contact you</h3>
@@ -109,18 +157,21 @@
             <div class="form__table__img">
                 <img src="./assets/imgs/about_one.jpg" alt="MK Production. Contact with us">
             </div>
-            <form class="form__table__inputs" action="" method="post" >
-                <input type="text" name="fvv" placeholder="Name">
-                <input type="tel" name="partialResponse" placeholder="Phone number">
-                <input type="email" name="pageHistory" placeholder="Email">
-                <input type="text" name="fbzx" placeholder="Your message">
+            <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe"
+            style="display:none;" onload="if(submitted) {window.location='https://aelita-js.github.io/studio-landing/';}"></iframe>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSfGxHUY968TaF08yE3qWZ1gJQ1i4ZBvJ3ljZ5RALXpRkpo7VQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;" class="form__table__inputs">
+                <input type="text" name="entry.1883490445" placeholder="Name">
+                <input type="tel" name="entry.200767199" placeholder="Phone number">
+                <input type="email" name="entry.179454551" placeholder="Email">
+                <input type="text" name="entry.2073833922" placeholder="Your message">
                 <button type="submit">Submit</button>
             </form>
         </div>
         
     </div>
 
-
+    <!-- ! =========== Footer =============== -->
     <footer>
         <div class="footer__copyright">
             <img src="./assets/icons/logoWhite.svg" alt="logo">
@@ -150,7 +201,6 @@
     </footer>
 
     <!-- Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com) -->
-
     <script>
         !function(){"use strict";document.addEventListener("click",function(t){const e=t.target.closest("[data-easy-toggle]");if(e){t.preventDefault();let a=e.getAttribute("data-easy-toggle"),s=e.getAttribute("data-easy-class");try{document.querySelectorAll("[data-easy-toggle]").forEach(t=>{t.hasAttribute("data-easy-parallel")||t===e||document.querySelector(t.getAttribute("data-easy-toggle")).classList.remove(t.getAttribute("data-easy-class"))}),document.querySelector(a).classList.toggle(s)}catch(t){console.warn("EasyToggler.js : Блок "+a+" не существует")}}if(!e){let e=document.querySelectorAll("[data-easy-rcoe]");Array.from(e).forEach.call(e,function(e){let a=e.getAttribute("data-easy-toggle"),s=e.getAttribute("data-easy-class");if(!t.target.closest(a))try{document.querySelector(a).classList.remove(s)}catch(t){console.warn("EasyToggler.js : Блок "+a+" не существует")}})}})}();
     </script>
