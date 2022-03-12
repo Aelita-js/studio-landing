@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./mediaStyles/mediaStyles.css">
     <title>Creative Video Production Agency Dubai - MK Production</title>
 </head>
 <body>
@@ -18,13 +19,13 @@
         <!-- ! =========== Background Video =============== -->
         <div class="intro__video">
             <div class="video">
-                <video class="video__media" src="./assets/videos/bg-video.mp4" autoplay muted loop></video>
+                <video class="video__media" src="./assets/videos/bgvideo.mp4" autoplay muted loop></video>
             </div>
         </div>
 
         <!-- ! =========== Header =============== -->
         <header>
-            <img src="./assets/icons/logoWhite.svg" alt="MK Production">
+            <img src="./assets/icons/logoWhite.png" alt="MK Production">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About us</a></li>
@@ -38,9 +39,9 @@
             </div>
         </header>
 
-        <div class="intro__headline">
-            <h2>"A director with a camera is like a free and unlimited person, like an author with a pen"</h2>
-        </div>
+        <!-- <div class="intro__headline">
+            <h2>MK Production</h2>
+        </div> -->
         
         <div class="intro__medias">
             <a href="#"><img src="./assets/icons/instagram.png" alt="socmedias"></a>
@@ -56,7 +57,7 @@
         <div class="about__headline">
             <h2>About us</h2>
             <p>
-                We are a team of visual storytellers, made up of artists, cinematographers <br> and strategic digital marketers, who came together to create authentic <br> consumer experiences. MK production studio was born with <br> the realization that there was a lack of authentic branded content in marketing. <br> That’s ultimately why we formed MK production: to give <br> marketers a partner in creating powerful content.
+                We are a team of visual storytellers, made up of artists, cinematographers and strategic digital marketers, who came together to create authentic consumer experiences. MK production studio was born with the realization that there was a lack of authentic branded content in marketing. That’s ultimately why we formed MK production: to give marketers a partner in creating powerful content.
             </p>
         </div>
         <div class="about__photos">
@@ -73,36 +74,75 @@
         </div>
 
         <div class="works__slider">
-            <div class="works__slider__container">
+            <!-- <div class="works__slider__container">
                 <div data-easy-toggle="#first" data-easy-class="show" class="works__slide"><img src="./assets/imgs/academyEdit2.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
                 <div data-easy-toggle="#second" data-easy-class="show" class="works__slide"><img src="./assets/imgs/americanRagCieEdit2.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
                 <div data-easy-toggle="#third" data-easy-class="show" class="works__slide"><img src="./assets/imgs/americanRagCNY1.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#first" data-easy-class="show" class="works__slide"><img src="./assets/imgs/aurakTrailerVideo2.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#second" data-easy-class="show" class="works__slide"><img src="./assets/imgs/baradaShortVideo.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#third" data-easy-class="show" class="works__slide"><img src="./assets/imgs/berezkav1.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#first" data-easy-class="show" class="works__slide"><img src="./assets/imgs/barberCourse.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#second" data-easy-class="show" class="works__slide"><img src="./assets/imgs/bldHomeEdit2.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#third" data-easy-class="show" class="works__slide"><img src="./assets/imgs/bloomiesHomeCookingDemoEdit.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#first" data-easy-class="show" class="works__slide"><img src="./assets/imgs/bellavitaFinal.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#second" data-easy-class="show" class="works__slide"><img src="./assets/imgs/boucheronEdit2.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#third" data-easy-class="show" class="works__slide"><img src="./assets/imgs/cityWalkEdit2.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#fourth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/aurakTrailerVideo2.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#fifth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/baradaShortVideo.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#sixth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/berezkav1.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#seventh" data-easy-class="show" class="works__slide"><img src="./assets/imgs/barberCourse.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#eighth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/bldHomeEdit2.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#ninth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/bloomiesHomeCookingDemoEdit.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#tenth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/bellavitaFinal.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#eleventh" data-easy-class="show" class="works__slide"><img src="./assets/imgs/boucheronEdit2.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#twelfth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/cityWalkEdit2.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
             </div>
         </div>
 
         <div class="works__slider__second">
-            <div class="works__slider__container__second">
-                <div data-easy-toggle="#first" data-easy-class="show" class="works__slide"><img src="./assets/imgs/dubaiFutureAccelerators3.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#second" data-easy-class="show" class="works__slide"><img src="./assets/imgs/economyTradeInvestConf.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#third" data-easy-class="show" class="works__slide"><img src="./assets/imgs/tov30Edit1.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#first" data-easy-class="show" class="works__slide"><img src="./assets/imgs/fl21.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#second" data-easy-class="show" class="works__slide"><img src="./assets/imgs/HongQiH9Dubai.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#third" data-easy-class="show" class="works__slide"><img src="./assets/imgs/kiteBeachEdit1.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#first" data-easy-class="show" class="works__slide"><img src="./assets/imgs/fl_21.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#second" data-easy-class="show" class="works__slide"><img src="./assets/imgs/laMerDubai.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#third" data-easy-class="show" class="works__slide"><img src="./assets/imgs/nomadShisha.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#first" data-easy-class="show" class="works__slide"><img src="./assets/imgs/taekwondo.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#second" data-easy-class="show" class="works__slide"><img src="./assets/imgs/tovSuperSale.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
-                <div data-easy-toggle="#third" data-easy-class="show" class="works__slide"><img src="./assets/imgs/talentSpotlight.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+            <div class="works__slider__container works__slider__container__second">
+                <div data-easy-toggle="#thirteenth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/dubaiFutureAccelerators3.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#fourteenth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/economyTradeInvestConf.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#fifteenth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/tov30Edit1.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#sixteenth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/fl21.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#seventeenth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/HongQiH9Dubai.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#eighteenth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/kiteBeachEdit1.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#nineteenth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/fl_21.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#twentieth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/laMerDubai.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#twentyfirst" data-easy-class="show" class="works__slide"><img src="./assets/imgs/nomadShisha.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#twentysecond" data-easy-class="show" class="works__slide"><img src="./assets/imgs/taekwondo.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#twentythird" data-easy-class="show" class="works__slide"><img src="./assets/imgs/tovSuperSale.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+                <div data-easy-toggle="#twentyfourth" data-easy-class="show" class="works__slide"><img src="./assets/imgs/talentSpotlight.png" alt="portfolio's video"><h4>Video Text</h4><img class="player" src="./assets/icons/player.png" alt="play"></div>
+            </div> -->
+            <div class="works__container">
+                <div class="container__headline">
+                    <h3>Commercial</h3>
+                    <!-- <img src="./assets/icons/arrow.png" alt="arrow "> -->
+                </div>
+                <div class="works__slider__once">
+                    <div data-easy-toggle="#first" data-easy-class="show" class="slide active" style="background-image: url(./assets/imgs/academyEdit2.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#fourth" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/aurakTrailerVideo.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#seventh" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/barberCourse.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#sixth" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/berezkav1.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#twelfth" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/cityWalkEdit2.png);"><h3>Video Text</h3></div>
+                </div>
+            </div>
+            <div class="works__container">
+                <div class="container__headline">
+                    <h3>Events</h3>
+                    <!-- <img src="./assets/icons/arrow-flip.png" alt="arrow "> -->
+                </div>
+                <div class="works__slider__once">
+                    <div data-easy-toggle="#fifth" data-easy-class="show" class="slide active" style="background-image: url(./assets/imgs/baradaShortVideo.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#ninth" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/bloomiesHomeCookingDemoEdit.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#twentyfirst" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/nomadShisha.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#twentieth" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/laMerDubai.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#fourteenth" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/economyTradeInvestConf.png);"><h3>Video Text</h3></div>
+                </div>
+            </div>
+            <div class="works__container">
+                <div class="container__headline">
+                    <h3>Corporate</h3>
+                    <!-- <img src="./assets/icons/arrow.png" alt="arrow "> -->
+                </div>
+                <div class="works__slider__once">
+                    <div data-easy-toggle="#fifteenth" data-easy-class="show" class="slide active" style="background-image: url(./assets/imgs/tov30Edit.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#twentyfourth" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/talentSpotlight.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#eighteenth" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/kiteBeachEdit1.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#tenth" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/bellavitaFinal.png);"><h3>Video Text</h3></div>
+                    <div data-easy-toggle="#eleventh" data-easy-class="show" class="slide" style="background-image: url(./assets/imgs/boucheronEdit2.png);"><h3>Video Text</h3></div>
+                </div>
             </div>
         </div>
         
@@ -111,7 +151,7 @@
         <div id="first" class="modal">
             <div class="modal__window">
                 <div class="modal__window__video">
-                    <video src="./assets/videos/pringles.mp4" controls muted></video>
+                    <video src="./assets/mk/commercials1.mp4" controls muted></video>
                 </div>
             </div>
             <button class="modal__close" data-easy-toggle="#first" data-easy-class="open">x</button>
@@ -121,7 +161,7 @@
         <div id="second" class="modal">
             <div class="modal__window">
                 <div class="modal__window__video">
-                    <video src="./assets/videos/tov.mp4" controls muted></video>
+                    <video src="./assets/mk/commercials3.mp4" controls muted></video>
                 </div>
             </div>
             <button class="modal__close" data-easy-toggle="#second" data-easy-class="open">x</button>
@@ -131,13 +171,222 @@
         <div id="third" class="modal">
             <div class="modal__window">
                 <div class="modal__window__video">
-                    <video src="./assets/videos/bg-video.mp4" controls muted></video>
+                    <video src="./assets/mk/commercials10.mp4" controls muted></video>
                 </div>
             </div>
             <button class="modal__close" data-easy-toggle="#third" data-easy-class="open">x</button>
             <div class="modal__overlay" data-easy-toggle="#third" data-easy-class="open"></div>
         </div>
 
+        <div id="fourth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/events9.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#fourth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#fourth" data-easy-class="open"></div>
+        </div>
+
+        <div id="fifth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/musicVideo2.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#fifth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#fifth" data-easy-class="open"></div>
+        </div>
+
+        <div id="sixth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/commercials6.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#sixth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#sixth" data-easy-class="open"></div>
+        </div>
+
+        <div id="seventh" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/corporate1.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#seventh" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#seventh" data-easy-class="open"></div>
+        </div>
+
+        <div id="eighth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/corporate3.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#eighth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#eighth" data-easy-class="open"></div>
+        </div>
+
+        <div id="ninth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/commercials15.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#ninth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#ninth" data-easy-class="open"></div>
+        </div>
+
+        <div id="tenth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/events4.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#tenth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#tenth" data-easy-class="open"></div>
+        </div>
+
+        <div id="eleventh" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/events1.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#eleventh" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#eleventh" data-easy-class="open"></div>
+        </div>
+
+        <div id="twelfth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/events8.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#twelfth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#twelfth" data-easy-class="open"></div>
+        </div>
+
+        <div id="thirteenth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/events6.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#thirteenth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#thirteenth" data-easy-class="open"></div>
+        </div>
+
+        <div id="fourteenth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/events7.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#fourteenth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#fourteenth" data-easy-class="open"></div>
+        </div>
+
+        <div id="fifteenth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/musicVideo2.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#fifteenth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#fifteenth" data-easy-class="open"></div>
+        </div>
+
+        <div id="sixteenth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/musicVideo3.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#sixteenth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#sixteenth" data-easy-class="open"></div>
+        </div>
+
+        <div id="seventeenth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/sport1.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#seventeenth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#seventeenth" data-easy-class="open"></div>
+        </div>
+
+        <div id="eighteenth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/sport3.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#eighteenth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#eighteenth" data-easy-class="open"></div>
+        </div>
+
+        <div id="nineteenth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/events4.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#nineteenth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#nineteenth" data-easy-class="open"></div>
+        </div>
+
+        <div id="twentieth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/events2.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#twentieth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#twentieth" data-easy-class="open"></div>
+        </div>
+
+        <div id="twentyfirst" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/commercials4.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#twentyfirst" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#twentyfirst" data-easy-class="open"></div>
+        </div>
+
+        <div id="twentysecond" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/taekwondo.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#twentysecond" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#twentysecond" data-easy-class="open"></div>
+        </div>
+
+        <div id="twentythird" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/talentSpotlight.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#twentythird" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#twentythird" data-easy-class="open"></div>
+        </div>
+
+        <div id="twentyfourth" class="modal">
+            <div class="modal__window">
+                <div class="modal__window__video">
+                    <video src="./assets/mk/commercials15.mp4" controls muted></video>
+                </div>
+            </div>
+            <button class="modal__close" data-easy-toggle="#twentyfourth" data-easy-class="open">x</button>
+            <div class="modal__overlay" data-easy-toggle="#twentyfourth" data-easy-class="open"></div>
+        </div>
     </div>
 
     <!-- ! =========== Services =============== -->
@@ -185,12 +434,24 @@
         </div>
     </div>
 
+    <!-- ! =========== OUR CLIENTS =============== -->
+
+    <div class="clients">
+        <div class="clients__container">
+            <img src="./assets/icons/alTayer — копия.jpeg" alt="">
+            <img src="./assets/icons/dolceGabanna — копия.png" alt="">
+            <img src="./assets/icons/kiteBeach — копия.png" alt="">
+            <img src="./assets/icons/meraas — копия.png" alt="">
+            <img src="./assets/icons/pandora — копия.png" alt="">
+        </div>
+    </div>
+
     <!-- ! =========== Contact form =============== -->
     <div class="form" id="contactus">
         <div class="form__heading">
             <h2>Leave a request</h2>
             <h3>We will contact you</h3>
-        </div>
+        </div>  
         <div class="form__table">
             <div class="form__table__img">
                 <img src="./assets/imgs/about_one.jpg" alt="MK Production. Contact with us">
@@ -240,7 +501,8 @@
 
     <!-- Code author Imanalieva Aelita (aiko.imanalieva00@gmail.com) -->
     <script>
-        !function(){"use strict";document.addEventListener("click",function(t){const e=t.target.closest("[data-easy-toggle]");if(e){t.preventDefault();let a=e.getAttribute("data-easy-toggle"),s=e.getAttribute("data-easy-class");try{document.querySelectorAll("[data-easy-toggle]").forEach(t=>{t.hasAttribute("data-easy-parallel")||t===e||document.querySelector(t.getAttribute("data-easy-toggle")).classList.remove(t.getAttribute("data-easy-class"))}),document.querySelector(a).classList.toggle(s)}catch(t){console.warn("EasyToggler.js : Блок "+a+" не существует")}}if(!e){let e=document.querySelectorAll("[data-easy-rcoe]");Array.from(e).forEach.call(e,function(e){let a=e.getAttribute("data-easy-toggle"),s=e.getAttribute("data-easy-class");if(!t.target.closest(a))try{document.querySelector(a).classList.remove(s)}catch(t){console.warn("EasyToggler.js : Блок "+a+" не существует")}})}})}();
+        !function(){"use strict";document.addEventListener("dblclick",function(t){const e=t.target.closest("[data-easy-toggle]");if(e){t.preventDefault();let a=e.getAttribute("data-easy-toggle"),s=e.getAttribute("data-easy-class");try{document.querySelectorAll("[data-easy-toggle]").forEach(t=>{t.hasAttribute("data-easy-parallel")||t===e||document.querySelector(t.getAttribute("data-easy-toggle")).classList.remove(t.getAttribute("data-easy-class"))}),document.querySelector(a).classList.toggle(s)}catch(t){console.warn("EasyToggler.js : Блок "+a+" не существует")}}if(!e){let e=document.querySelectorAll("[data-easy-rcoe]");Array.from(e).forEach.call(e,function(e){let a=e.getAttribute("data-easy-toggle"),s=e.getAttribute("data-easy-class");if(!t.target.closest(a))try{document.querySelector(a).classList.remove(s)}catch(t){console.warn("EasyToggler.js : Блок "+a+" не существует")}})}})}();
+        const slides=document.querySelectorAll(".slide");for(const s of slides)s.addEventListener("click",()=>{clearAciveClasses(),s.classList.add("active")});function clearAciveClasses(){slides.forEach(s=>{s.classList.remove("active")})};
     </script>
 </body>
 </html>
